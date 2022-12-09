@@ -2,8 +2,8 @@ const fs = require('fs')
 const expected1 = null
 const expected2 = null
 
-const example = fs.readFileSync('./example.txt', 'utf8').split('\n')
-const input = fs.readFileSync('./input.txt', 'utf8').split('\n')
+const example = fs.readFileSync(__dirname + '/example.txt', 'utf8').split('\n')
+const input = fs.readFileSync(__dirname + '/input.txt', 'utf8').split('\n')
 
 function solvePart1(input) {
   return null
